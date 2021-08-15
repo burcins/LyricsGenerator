@@ -5,7 +5,7 @@ In this self-developed project, my aim was to generate lyric by using lyrics of 
 At first step, I parsed lyrics from a web page via beautifulsoup package and then cleaned as well as prepared them for model development. 
 After that I created a bidirectional LSTM model with a couple of layers, then trained it with a hundred iteration. Eventually, I provide initial words for prediction to the trained model and it provides prodicted a hundred more words addition to my initial words. 
 
-**For trying prediction results with your initial words; **
+**For trying prediction results with your initial words;**
   - First it is required to either clone the repo or download (bob_dylan.h5, bobdylan_input_sequences.csv, bobdylan_tokenizer.joblib, PredictBobDylanLyrics.py) necessary files
   - Run **PredictBobDylanLyrics.py** file 
   - It will request you to write a few words to trigger the predictions based on your initial words
