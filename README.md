@@ -10,7 +10,7 @@ After that I created a bidirectional LSTM model with a couple of layers, then tr
   - Run **PredictBobDylanLyrics.py** file 
   - It will request you to write a few words to trigger the predictions based on your initial words
 
-**For trying to train model with differen performer;**
+**For trying to train model from scratch for another performer;**
   - Open **Lyrics_Generator.ipynb** file and run code cells in sequence,
   - Write the performer name when it will be requested at 5th code cell in required format, which is write your input in lowercase and put '-' between name(s) and surname(s) (ex: bob-dylan)
   - Let the model train with new lyrics, afterwards it will again request you to start generating lyrics with a few words, then it will generate a hundred more words to extend lyrics. 
